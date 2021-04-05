@@ -1,0 +1,87 @@
+base_info:
+  title: 莫等闲白了少年头
+  author: oliver34
+  url: https://oliver34.github.io/
+style:
+  # Theme primary color
+  primary_color: '#0066CC'
+
+  # Avatar (You can use local image or image external link)
+  avatar: /images/avatar.jpg
+
+  # Favicon (You can use local image or image external link)
+  favicon: /images/logo.svg
+
+  # Article image align position, value: left | center
+  article_img_align: left
+
+  # Left side width
+  left_side_width: 260px
+
+  # Content area max width
+  content_max_width: 920px
+
+  # Mouse hover
+  hover:
+    shadow: false # shadow effect when the mouse hover
+    scale: false # scale effect when the mouse hover
+
+  # First screen
+  first_screen:
+    enable: true
+    background_img: /images/bg.svg # You can use local image or image external link
+    description: 有志者，事竟成.
+
+  # Scroll style settings
+  scroll:
+    progress_bar:
+      enable: false
+    percent:
+      enable: false
+
+social_contact:
+  enable: true
+  links:
+    github: https://github.com/oliver34
+    weibo: https://weibo.com/u/3936679384
+    instagram: https://www.instagram.com/wangjunjie_1995/
+
+home_article:
+  category:
+    enable: true # show category in home page article block
+    limit: 3 # max number of categories shown in home page article block
+  tag:
+    enable: true # show tags in home page article block
+    limit: 5 # max number of tags shown in home page article block
+
+menu:
+  Archives: /archives
+  Categories: /categories
+  Tags: /tags
+
+post:
+  # Post word count
+  # Dependencies: hexo-wordcount (npm install hexo-wordcount)
+  # See: https://github.com/willin/hexo-wordcount
+  word_count:
+    enable: true
+    wordcount: true # word count, one article
+    min2read: false # time to read, one article
+
+  # Author label
+  author_label:
+    enable: true
+    auto: false # if true, show Lv1, Lv2, Lv3... , If false, show custom label
+    custom_label_list: ['小白', '菜鸡', '可以的', '厉害了', '牛逼']
+
+code_copy:
+  enable: true
+  style: mac
+
+toc:
+  enable: true # Automatically add list number to toc.
+  number: true # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
+  expand_all: true # If true, open TOC every time when you enter the article page
+  init_open: true
+
+
