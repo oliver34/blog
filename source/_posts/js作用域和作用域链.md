@@ -90,7 +90,7 @@ getScope();
 js中依然存在块级作用域，比如 let 定义的变量遵从块级作用域，不会提升，不会在整个函数域内起作用。
 
 2.作用域链
-> 参考资料
+> 参考资料1
 
 [Js作用域与作用域链详解](http://blog.csdn.net/yueguanghaidao/article/details/9568071) 
 
