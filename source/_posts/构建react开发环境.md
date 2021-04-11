@@ -1,7 +1,7 @@
 ---
 title: gulp+browserify 构建react开发环境
 date: 2016-10-31 13:23:07
-tags:
+tags: [React]
 ---
 
 最近准备学习一下前端火热的框架—react ，好扩充一下自己增加一些相关经验。

@@ -1,7 +1,7 @@
 ---
 title: AngularJS之$watch
 date: 2016-11-23 17:13:11
-tags:
+tags: [Angularjs]
 ---
 
 今天遇到一个需求:`$scope`中一些特定的变量改变的时候，需要触发相应的事件。搜索一下，了解到`AngularJS`一个scope函数——`$watch`

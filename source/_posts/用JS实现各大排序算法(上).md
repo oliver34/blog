@@ -1,9 +1,11 @@
 ---
 title: 用JS实现各大排序算法(上)
 date: 2021-04-11 12:38:34
-tags:
+tags: [排序, 算法]
 ---
-
+冒泡排序、插入排序、选择排序
+<div align="center"> <img src="https://cdn.jsdelivr.net/gh/oliver34/image-host@main/blog/348604caaf0a1b1d7fee0512822f0e50.5obh29r1yvs0.jpeg" style="height: 220px"/></div>
+<!--less-->
 ### 常见的排序算法
 冒泡排序、插入排序、选择排序、快速排序、归并排序。。。
 ### 一些排序算法的概念
