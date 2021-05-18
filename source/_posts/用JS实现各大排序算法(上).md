@@ -83,25 +83,23 @@ const insertionSort = arr => {
 
 #### 代码实现
 ``` js
-/** 插入排序 */
+/** 选择排序 */
 
-const insertionSort = arr => {
-  const length = arr.length;
-  let tem = 0;
-  for (let i = 1; i < length; i ++) {
-    tem = arr[i]
-    let j
-    for (j = i -1; j >= 0; j --) {
-      if (tem < arr[j]) {
-        arr[j + 1] = arr[j];
-        continue
-      }
-      break
-    }
-    arr[j + 1] = temp
-  }
-  return arr
-}
+const selectionSort = arr => {
+   let min = 0;
+   for (let i = 0; i < arr.length; i++) {
+     min = i
+     for (j = i + 1; j < arr.length;j ++) {
+       if (arr[min] > arr[j]) {
+         min = j
+       }
+       if (min !== i) {
+         [arr[min], arr[i]] = [arr[i], arr[min]]
+       }
+     }
+   }
+   return arr
+ }
 
 ```
 ### 总结
